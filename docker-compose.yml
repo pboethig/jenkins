@@ -1,9 +1,15 @@
 version: '2'
 
 services:
-  jenkins:
-    ports:
-      - "8080:8080"
+  jenkins_mittax:
     build: 
        context: .
-       dockerfile: jenkins.dockerfile    
+       dockerfile: jenkins.dockerfile
+    ports: 
+      - "8080:8080"    
+    networks:
+       - jenkins_mittax
+  
+networks:
+  jenkins_mittax:
+    driver: bridge

@@ -1,5 +1,7 @@
 clear
 
+docker-compose down
+
 docker-compose up --build -d --force-recreate
 
 echo 'starting jenkins service in container jenkins_jenkins_1'
