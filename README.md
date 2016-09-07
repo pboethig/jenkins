@@ -1,4 +1,4 @@
-# jenkins-docker
+# jenkins-docker for linux / Windows / Mac
 
 ## Prerequisits
 - docker installed
@@ -10,10 +10,17 @@
 - clone repo
 - run startup.sh
 
+### on linux
 surf http://localhost:8080
 
+###On Windows / Mac
+
+get docker-machine ip
+
+surf http://<docker-machine ip>:8081
+
 ## defaultuser
-admin /admin
+admin / admin
 
 Please secure your installation after that
 
