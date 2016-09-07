@@ -17,7 +17,7 @@ surf http://localhost:8080
 
 get docker-machine ip
 
-surf http://<docker-machine ip>:8081
+surf http://docker-machine-ip:8081
 
 ## defaultuser
 admin / admin
